@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState, useRef, useEffect } from 'react';
 import { generateRemixedContent, getSocraticFeedback, analyzeGrowthMindset } from '../services/geminiService';
 import { Loader2, RefreshCw, Send, BookOpen, MessageCircle, TrendingUp } from 'lucide-react';
